@@ -118,3 +118,22 @@ a {
 .card-text {
     padding: 1rem;
 }
+
+.quotes {
+    padding: 8rem 12rem;
+    text-align: center;
+    color: #fff;
+    background: #00000080;
+}
+
+.quotes > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p.quotes-by {
+    font-size: 1.95rem;
+    margin-top: 1rem;
+    text-align: right;
+    font-weight: bolder;
+}
