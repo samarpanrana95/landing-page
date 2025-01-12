@@ -106,9 +106,24 @@ a {
 .card {
     flex: 0 1 200px;
     box-shadow: 4px 4px 4px black;
-    border-radius: 4px;
+    border-radius: 12px;
     height: 300px;
 }
+
+.card,
+button {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
 
 .card-img {
     width: 220px;
@@ -136,4 +151,47 @@ p.quotes-by {
     margin-top: 1rem;
     text-align: right;
     font-weight: bolder;
+}
+
+.main-ad {
+    background: aquamarine;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 60vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.main-ad-text {
+    flex-grow: 1;
+    font-size: 1.25rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main-ad-text-first {
+    font-size: 1.45rem;
+    font-weight: bold;
+}
+
+.main-ad-button {    
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    margin: 0 auto;
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.footer {
+    cursor: pointer;
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding: 1rem;
 }
